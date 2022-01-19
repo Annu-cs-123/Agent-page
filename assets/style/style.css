@@ -1,0 +1,234 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+:root {
+    --font-xsm: 12px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 25px;
+    --font-xxl: 30px;
+    --font-xxxl: 49px;
+    /* COLOR */
+    --color-green: #073937;
+    --color-white: #FFFFFF;
+    --color-lightpink: #FFF9F4;
+    --color-lightYellow: #E4B11D;
+
+}
+
+.text_decoration {
+    text-decoration: none;
+}
+
+.font_sm {
+    font-size: var(--font-sm);
+    font-weight: 600;
+}
+
+.font_w {
+    font-weight: 400 !important;
+}
+
+.font_size {
+    font-size: var(--font-xsm) !important;
+}
+
+.font_lg {
+    font-weight: 400;
+    font-size: var(--font-lg);
+}
+
+.font_w {
+    font-weight: 700 !important;
+}
+
+.font_xl {
+    font-size: var(--font-xl);
+    font-weight: 700;
+}
+
+.font_xxl {
+    font-size: var(--font-xxl);
+    font-weight: 700;
+}
+
+.font_sizeMana {
+    font-size: 29px !important;
+}
+
+.font_xxxl {
+    font-size: var(--font-xxxl);
+    font-weight: 700;
+}
+
+.font_md {
+    font-size: var(--font-md);
+    font-weight: 600;
+}
+
+.navbg_color {
+    background-color: var(--color-green);
+}
+
+.nav-link {
+    color: var(--color-white) !important;
+}
+
+.text_color {
+    color: var(--color-green);
+}
+
+.padding_left {
+    padding: 40px 0px 40px 50px;
+}
+
+/* SECTION-2ND */
+.bg_color {
+    background-color: var(--color-lightpink);
+}
+
+.refer_btn {
+    padding: 23px 40px;
+    border: none;
+    background-color: var(--color-lightYellow);
+    border-radius: 90px;
+}
+
+/* FOOTER-SECTION */
+.footer_textcolor {
+    color: var(--color-white);
+}
+
+.footer_textcolor:hover {
+    color: var(--color-white) !important;
+}
+
+.horizontal_line {
+    color: var(--color-white);
+    border: 1px solid;
+}
+
+.border_img {
+    border-radius: 8px;
+    border: 2px solid var(--color-white);
+}
+
+/* imagebox-width */
+.w_comercial {
+    width: 51px;
+    height: 55px;
+}
+
+.w_heandless {
+    width: 48px;
+    height: 60px;
+}
+
+.w_edge {
+    width: 47px;
+    height: 47px;
+}
+
+/* input-BUTTON */
+.input_box {
+    width: 344px;
+    height: 58px;
+    background-color: var(--color-white);
+    border-radius: 31px;
+
+}
+
+.input_btn {
+    border: none;
+    margin-left: 10px;
+    border-radius: 31px;
+}
+
+.Unlock_btn {
+    border: none;
+    background-color: var(--color-green);
+    color: white;
+    padding: 17px 47px;
+    margin: 2px;
+    border-radius: 31px;
+
+}
+
+/* accordians */
+.accordion-item {
+    background-color: transparent !important;
+}
+
+.accordion-button {
+    background-color: transparent;
+    color: var(--color-green) !important;
+    font-size: var(--font-xl) !important;
+    font-weight: 700 !important;
+    border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: var(--color-green);
+    font-size: var(--font-22);
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.accordion-body-text {
+    font-size: var(--font-16) !important;
+    font-weight: 400 !important;
+    color: var(--color-green) !important;
+}
+
+.accordion-body {
+    color: var(--color-green) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--color-green) !important;
+    background-color: var(--color-white) !important;
+}
+
+.accordion-button:focus {
+    border-color: var(--color-green) !important;
+}
+
+/* MEDIA QUERY */
+@media (max-width:568px) {
+    .input_box {
+        width: 315px;
+        height: 38px;
+        background-color: var(--color-white);
+        border-radius: 24px;
+
+    }
+
+    .input_btn {
+        border: none;
+        margin-left: 10px;
+        border-radius: 24px;
+    }
+
+    .Unlock_btn {
+        border: none;
+        background-color: var(--color-green);
+        color: white;
+        padding: 6px 35px;
+        margin: 2px;
+        border-radius: 24px;
+
+    }
+
+}
